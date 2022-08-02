@@ -21,7 +21,7 @@ src_unpack(){
 		unpack p2pool-v${PV}-linux-x64.tar.gz
 		mv -T "${WORKDIR}"/p2pool-v${PV}-linux-x64 "${S}"
 	fi
-	if use "aarch64"; then
+	if use "arm64"; then
 		unpack p2pool-v${PV}-linux-aarch64.tar.gz
 		mv -T "${WORKDIR}"/p2pool-v${PV}-linux-aarch64 "${S}"
 	fi
